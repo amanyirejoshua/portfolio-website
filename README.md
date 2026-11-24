@@ -2,7 +2,7 @@
 
 A sober, static personal portfolio website for Amanyire Joshua Muhinda, focused on Linux systems, enterprise networking, and resilient infrastructure.
 
-Live site: [josh03-spec.github.io/portfolio-website](https://josh03-spec.github.io/portfolio-website/)
+Live site: [amanyirejoshua.github.io/portfolio-website](https://amanyirejoshua.github.io/portfolio-website/)
 
 ## Overview
 
