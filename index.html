@@ -1,191 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amanyire Joshua | Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanyire Joshua Muhinda | Linux Systems &amp; Network Infrastructure</title>
+  <meta name="description" content="Amanyire Joshua Muhinda is a final-year Information Technology student in Uganda focused on Linux systems administration, enterprise networking, and resilient infrastructure.">
+  <meta name="theme-color" content="#F7F6F3">
+  <meta property="og:title" content="Amanyire Joshua Muhinda | Linux Systems &amp; Network Infrastructure">
+  <meta property="og:description" content="Final-year IT student in Uganda focused on Linux systems, enterprise networking, and resilient infrastructure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://josh03-spec.github.io/portfolio-website/">
+  <meta property="og:image" content="https://josh03-spec.github.io/portfolio-website/assets/profile.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Amanyire Joshua Muhinda | Linux Systems &amp; Network Infrastructure">
+  <meta name="twitter:description" content="Final-year IT student in Uganda focused on Linux systems, enterprise networking, and resilient infrastructure.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-  <nav class="navbar navbar-expand-lg" id="mainNav">
-    <div class="container">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-      <!-- My Name/Logo on the left -->
-      <a class="navbar-brand" href="#home">Amanyire Joshua</a>
-
-      <!-- Hamburger button (visible only on mobile) -->
-      <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Amanyire Joshua Muhinda home">
+        <span class="brand-mark" aria-hidden="true">AJM</span>
+        <span class="brand-name">Amanyire Joshua Muhinda</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
       </button>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-small btn-secondary" href="assets/Amanyire_Joshua_Muhinda_CV.pdf" download>Download CV</a>
+      </div>
+    </nav>
+  </header>
 
-      <!-- Nav links (collapse on mobile) -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Linux Systems · Enterprise Networking · Resilient Infrastructure</p>
+          <h1>Amanyire Joshua Muhinda</h1>
+          <p class="hero-lead">Final-year Bachelor of Science in Information Technology student at Uganda Martyrs University, Uganda, focused on building dependable and accessible infrastructure.</p>
+          <p class="hero-proof">
+            <span class="proof-label">Recent recognition</span>
+            3rd Prize, Huawei ICT Competition 2025–2026 Global Finals &mdash; Computing Track.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Work</a>
+            <a class="btn btn-secondary" href="assets/Amanyire_Joshua_Muhinda_CV.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+          </div>
+          <ul class="hero-meta" aria-label="Quick details">
+            <li><span class="meta-label">Based in</span><span>Uganda</span></li>
+            <li><span class="meta-label">Focus</span><span>Linux, Networking, Service Resilience</span></li>
+            <li><span class="meta-label">Currently</span><span>Researching ResilientUG</span></li>
+          </ul>
+        </div>
+        <div class="hero-portrait">
+          <img src="assets/profile.jpg" alt="Portrait of Amanyire Joshua Muhinda" width="800" height="771" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container narrow">
+        <p class="eyebrow">About</p>
+        <h2>Building systems that remain useful when conditions are not ideal.</h2>
+        <div class="prose">
+          <p>I am an Information Technology student with a practical interest in Linux systems administration, enterprise routing and switching, and network service resilience. My work sits at the intersection of infrastructure, operations, and problem-solving &mdash; understanding how systems are built, where they fail, and how to make them more dependable.</p>
+          <p>Through hands-on network deployment, competition labs, and research, I have been developing the discipline to design and troubleshoot infrastructure carefully. My current final-year research, ResilientUG, explores local-first continuity for essential university services during internet uplink disruptions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience &amp; Recognition</p>
+          <h2>Practical work, grounded in real environments.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="timeline-date">Jun 2026 – Aug 2026</p>
+              <p class="timeline-place">Kampala, Uganda</p>
+            </div>
+            <div class="timeline-body">
+              <h3>IT &amp; Network Infrastructure Intern</h3>
+              <p class="timeline-org">Health Service Commission of Uganda</p>
+              <ul>
+                <li>Deployed building-wide network infrastructure, including router configuration, static IP addressing, and structured cabling.</li>
+                <li>Diagnosed and resolved Layer 2/3 network faults, including wireless access point misconfigurations and switch port/bandwidth mismatches.</li>
+                <li>Supported endpoint hardware maintenance, BIOS updates, and technical AV/network operations for executive board sessions.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="timeline-date">2026</p>
+              <p class="timeline-place">Shenzhen, China</p>
+            </div>
+            <div class="timeline-body">
+              <h3>3rd Prize Winner, Computing Track</h3>
+              <p class="timeline-org">Huawei ICT Competition 2025–2026 Global Finals</p>
+              <ul>
+                <li>Competed in an intensive live-lab environment focused on enterprise infrastructure deployment within the openEuler Linux ecosystem.</li>
+                <li>Configured system security hardening, user/access permissions, network storage protocols, and performance tuning under strict timelines.</li>
+                <li>Diagnosed and resolved Linux system faults in real time during competition tasks.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <p class="timeline-date">2025 – Present</p>
+              <p class="timeline-place">Uganda Martyrs University</p>
+            </div>
+            <div class="timeline-body">
+              <h3>Student Technical Leadership</h3>
+              <p class="timeline-org">Campus Cybersecurity Club · UMU Tech Community · Faculty of Science Innovation Hub</p>
+              <ul>
+                <li>Lead the Campus Cybersecurity Club, serve as Secretary of the UMU Tech Community, and support the Faculty of Science Innovation Hub as a student leader.</li>
+                <li>Organize peer hands-on labs and learning activities in Linux, networking, and security.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects &amp; Research</p>
+          <h2>Selected work and current research.</h2>
+          <p class="section-lead">A mix of infrastructure research, applied systems work, and community-facing builds.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-body">
+              <p class="project-tag">Final Year Research · In Progress · Early Stage</p>
+              <h3>ResilientUG</h3>
+              <p class="project-subtitle">Local-first "Campus Island" for university service continuity</p>
+              <p>ResilientUG explores how essential university services can remain accessible during external internet uplink failures. The project focuses on a reproducible, warm-standby local infrastructure model for services such as Moodle, library catalogues, and past-paper repositories.</p>
+              <ul class="project-points">
+                <li>Designing automated split-horizon DNS failover with Unbound, Nginx edge caching, and local captive-portal probe handling.</li>
+                <li>Building a single-host fault-injection testbed using Linux network namespaces, nftables, and <code>tc/netem</code>.</li>
+                <li>Measuring Journey Success Rate, Time to Recover, and uplink bandwidth savings across academic workflows.</li>
+              </ul>
+              <div class="project-footer">
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Linux</li><li>Unbound</li><li>Nginx</li><li>nftables</li><li>tc/netem</li><li>Network Namespaces</li>
+                </ul>
+                <p class="project-note">Documentation links will be added as the research develops.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project-nkozi-online.jpg" alt="Screenshot of the Nkozi Online website homepage" width="1200" height="675" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">Community Web Project</p>
+              <h3>Nkozi Online</h3>
+              <p>A business and service directory for Nkozi in Mpigi District, built to make local businesses and services easier to discover.</p>
+              <div class="project-footer">
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Web</li><li>Directory</li><li>Community</li>
+                </ul>
+                <a class="text-link" href="https://nkozionline.infinityfree.me/" target="_blank" rel="noopener noreferrer">Visit site <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project-healthcare-chatbot.jpg" alt="Screenshot of the healthcare chatbot project demonstration" width="1200" height="651" loading="lazy">
+            <div class="project-body">
+              <p class="project-tag">Applied AI Project</p>
+              <h3>Healthcare Chatbot</h3>
+              <p>An AI-powered chatbot concept designed to support preventive health education and guide users toward healthier lifestyles through conversational interaction.</p>
+              <div class="project-footer">
+                <ul class="tag-list" aria-label="Technologies">
+                  <li>Conversational AI</li><li>Health Education</li><li>IBM SkillsBuild</li>
+                </ul>
+                <a class="text-link" href="https://www.youtube.com/watch?v=sVYwnz50swg" target="_blank" rel="noopener noreferrer">Watch demo <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Technical areas I work with.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Systems &amp; Virtualization</h3>
+            <ul>
+              <li>Linux administration (openEuler, Fedora Workstation, Ubuntu LTS)</li>
+              <li>QEMU/KVM, Docker</li>
+              <li>Linux network namespaces, systemd, chrony</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Networking &amp; Protocols</h3>
+            <ul>
+              <li>VLANs, STP, OSPF, NAT/NAPT, ACLs</li>
+              <li>Huawei VRP/eNSP, Layer 2/3 troubleshooting</li>
+              <li>DNS (Unbound, split-horizon, serve-expired), Nginx, TCP/IP</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Tooling &amp; Diagnostics</h3>
+            <ul>
+              <li>tc/netem, nftables, tcpdump</li>
+              <li>dig, curl, DNS-over-TLS</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Security &amp; Scripting</h3>
+            <ul>
+              <li>Network vulnerability assessment, access control</li>
+              <li>Bash/shell scripting</li>
+              <li>Python &amp; SQL for telemetry, automation, and benchmarking</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications &amp; Training</p>
+          <h2>Selected credentials and learning.</h2>
+        </div>
+        <ul class="cert-list">
+          <li class="cert-item">
+            <span class="cert-name">Certified in Cybersecurity (CC)</span>
+            <span class="cert-meta">ISC2 · Completed, 2026</span>
+          </li>
+          <li class="cert-item">
+            <span class="cert-name">Huawei ICT Competition Network Track (HCIA/HCIP-Datacom Curriculum)</span>
+            <span class="cert-meta">Huawei ICT Academy · In Progress, 2026–2027</span>
+          </li>
+          <li class="cert-item">
+            <span class="cert-name">AWS AI Practitioner Challenge Certificate</span>
+            <span class="cert-meta">Udacity · June 2026</span>
+          </li>
+          <li class="cert-item">
+            <span class="cert-name">Introduction to Cybersecurity; Introduction to Data Science</span>
+            <span class="cert-meta">Cisco Networking Academy</span>
+          </li>
+          <li class="cert-item">
+            <span class="cert-name">AI Experiential Learning Lab: Industry Immersion</span>
+            <span class="cert-meta">IBM SkillsBuild</span>
+          </li>
+          <li class="cert-item">
+            <span class="cert-name">ICDL Profile Certificate</span>
+            <span class="cert-meta">ICDL Africa</span>
+          </li>
         </ul>
       </div>
+    </section>
 
-    </div>
-  </nav>
-</header>
-<main>
-  <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center">
-    <div class="container">
-      <p class="hero-greeting">Hi there, I'm</p>
-      <h1 class="hero-name">Amanyire Joshua</h1>
-      <p class="hero-title">Aspiring System Admin & Problem Solver</p>
-      <a href="#projects" class="btn btn-primary btn-lg mt-4">View My Work</a>
-    </div>
-  </section>
-<section id="about" class="about-section">
-  <div class="container">
-
-    <h2 class="section-title text-center">About Me</h2>
-    <p class="section-subtitle text-center">Some information about who I am</p>
-
-    <div class="row align-items-center mt-5">
-
-      <!-- Photo column -->
-      <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
-        <img src="assets/profile.jpg" alt="Profile photo of Amanyire Joshua" class="profile-img">
-      </div>
-
-      <!-- Bio column -->
-      <div class="col-12 col-md-7">
-        <p class="about-bio">
-          Hi! I'm Amanyire Joshua, an Information Technology student focusing on Linux, computer networks, and applied AI. I’m building my skills with a strong interest in the systems that support modern computing.
-        </p>
-        <p class="about-bio">  
-          I am committed to using my growing skills and capabilities to contribute to more dependable and accessible technology infrastructure while establishing myself as a well-rounded and reliable technologist.
-        </p>
-
-        <h5 class="skills-heading mt-4">My Skills</h5>
-        <div class="d-flex flex-wrap gap-2 mt-3">
-          <span class="badge skill-badge">Team Work</span>
-          <span class="badge skill-badge">Troubleshooting</span>
-          <span class="badge skill-badge">Research</span>
-          <span class="badge skill-badge">Online Collaboration</span>
-          <span class="badge skill-badge">Git & GitHub</span>
-          <span class="badge skill-badge">Problem Solving</span>
-          <span class="badge skill-badge">Communication</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="projects" class="projects-section">
-  <div class="container">
-
-    <h2 class="section-title text-center">My Projects</h2>
-    <p class="section-subtitle text-center">Things I have built and explored</p>
-
-    <div class="row mt-5 g-4">
-
-      <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card project-card h-100">
-          <img src="./assets/Joshua Portfolio Page Sreenshot.png" class="card-img-top" alt="Screenshot of personal portfolio website">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Personal Portfolio</h5>
-            <p class="card-text">A responsive portfolio website (this one) built with HTML, CSS and Bootstrap to showcase my skills and projects.</p>
-            <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>For opportunities, collaborations, research conversations, or general networking, feel free to send a message. I’m open to thoughtful conversations across systems, networking, and infrastructure work.</p>
+          <div class="contact-links">
+            <a class="text-link" href="https://www.linkedin.com/in/amanyirejoshua" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/Josh03-spec" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="assets/Amanyire_Joshua_Muhinda_CV.pdf" download>Download public CV</a>
           </div>
         </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card project-card h-100">
-          <img src="./assets/Joshua IBM AI Lab Demostration Screenshot.png" class="card-img-top" alt="Screenshot of Heath chatbot project">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Healthcare Chatbot</h5>
-            <p class="card-text">The AI-powered chatbot educates, engages, and guides users toward healthier lifestyles through conversational preventive care.
-            A practical example of agentic AI advancing accessible healthcare in Uganda and beyond.</p>
-            <a href="https://www.youtube.com/watch?v=sVYwnz50swg" class="btn btn-outline-primary mt-auto">View Project</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card project-card h-100">
-          <img src="./assets/Joshua Nkozi Online Home page Screenshot.png" class="card-img-top" alt="Screenshot of Nkozi Online website">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Nkozi Online</h5>
-            <p class="card-text">A business and service directory for Nkozi in Mpigi District.</p>
-            <a href="https://nkozionline.infinityfree.me/" class="btn btn-outline-primary mt-auto">View Project</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="contact-section">
-  <div class="container">
-
-    <h2 class="section-title text-center">Get In Touch</h2>
-    <p class="section-subtitle text-center">Have a question or want to work together?</p>
-
-    <div class="row justify-content-center mt-5">
-      <div class="col-12 col-md-8 col-lg-6">
-
-        <div class="contact-form-wrapper">
-          <form action="https://formspree.io/f/mgonvdpz" method="POST">
-
-            <div class="mb-3">
-              <label for="name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required>
+        <div class="contact-form-wrap">
+          <form action="https://formspree.io/f/mgonvdpz" method="POST" class="contact-form">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
             </div>
-
-            <div class="mb-3">
-              <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@gmail.com" required>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
             </div>
-
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-
-            <div class="d-grid">
-              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-            </div>
-
+            <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
-
       </div>
-    </div>
-  </div>
-</section>
-
-
-</main>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="container text-center">
-      <p class="footer-text">© <script>document.write(new Date().getFullYear());</script> Amanyire Joshua. All rights reserved.</p>
-      <div class="footer-links mt-2">
-        <a href="https://github.com/Josh03-spec" target="_blank" class="footer-link">GitHub</a>
-        <span class="footer-divider">|</span>
-        <a href="https://www.linkedin.com/in/amanyirejoshua" target="_blank" class="footer-link">LinkedIn</a>
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Amanyire Joshua Muhinda · Uganda</p>
+      <div class="footer-links">
+        <a href="https://github.com/Josh03-spec" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/amanyirejoshua" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
     </div>
   </footer>
 
-</main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('nav-menu');
+      var year = document.getElementById('year');
+      if (year) year.textContent = new Date().getFullYear();
+      if (!toggle || !menu) return;
+      function closeMenu() {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+        menu.classList.remove('is-open');
+      }
+      toggle.addEventListener('click', function () {
+        var open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        toggle.setAttribute('aria-label', open ? 'Open navigation menu' : 'Close navigation menu');
+        menu.classList.toggle('is-open', !open);
+      });
+      menu.querySelectorAll('a[href^="#"]').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeMenu();
+      });
+      document.addEventListener('click', function (e) {
+        if (!menu.classList.contains('is-open')) return;
+        if (!menu.contains(e.target) && !toggle.contains(e.target)) closeMenu();
+      });
+    })();
+  </script>
 </body>
 </html>
